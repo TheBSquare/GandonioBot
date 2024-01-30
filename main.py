@@ -6,12 +6,12 @@ from wait_messages import wait_messages
 
 
 # bot setting
-bot = telebot.TeleBot("5390991004:AAEyJ-4Yojelix31goYJzD7RrHHdJQiKces")
+bot = telebot.TeleBot("your bot token")
 timeout = 1
 next_joke_time = datetime.now()
 
 # parser settings
-joke_api_link = "https://castlots.org/generator-anekdotov-online/generate.php"
+joke_api_link = "http://castlots.org/generator-anekdotov-online/generate.php"
 headers = {
     "Accept": "application/json, text/javascript, */*; q=0.01",
     "Accept-Encoding": "gzip, deflate, br",
